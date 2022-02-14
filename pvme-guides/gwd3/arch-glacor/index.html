@@ -1,0 +1,2401 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/logo.ico">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.2">
+    
+    
+      
+        <title>Arch glacor - PVME Guides</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1118c9be.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ba0d045b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/discordEmbed.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/discordInvite.css">
+    
+    
+      
+  
+
+
+
+  
+  
+
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-189398108-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arch-glacor" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="PVME Guides" class="md-header__button md-logo" aria-label="PVME Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PVME Guides
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Arch glacor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="PVME Guides" class="md-nav__button md-logo" aria-label="PVME Guides" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    PVME Guides
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Information
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Information" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Information
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../information/boss-minmaxing/" class="md-nav__link">
+        Boss minmaxing
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../information/directory/" class="md-nav__link">
+        Directory
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../information/editor-entry/" class="md-nav__link">
+        Editor entry
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../information/how-to/" class="md-nav__link">
+        How to
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../information/mastery-system-reqs/" class="md-nav__link">
+        Mastery system reqs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../information/rules-and-information/" class="md-nav__link">
+        Rules and information
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Getting started
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/bossing-path/" class="md-nav__link">
+        Bossing path
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/interface-guide/" class="md-nav__link">
+        Interface guide
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/invention-basics/" class="md-nav__link">
+        Invention basics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/perk-info/" class="md-nav__link">
+        Perk info
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/perks/" class="md-nav__link">
+        Perks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/quick-start/" class="md-nav__link">
+        Quick start
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/revo-to-full-manual/" class="md-nav__link">
+        Revo to full manual
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Upgrading info
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Upgrading info" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Upgrading info
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrading-info/armour-and-weapons/" class="md-nav__link">
+        Armour and weapons
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrading-info/consumables/" class="md-nav__link">
+        Consumables
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrading-info/permanent-unlocks/" class="md-nav__link">
+        Permanent unlocks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrading-info/unlockable-abilities/" class="md-nav__link">
+        Unlockable abilities
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrading-info/upgrade-decisions/" class="md-nav__link">
+        Upgrade decisions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrading-info/upgrade-order/" class="md-nav__link">
+        Upgrade order
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Miscellaneous information
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Miscellaneous information" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Miscellaneous information
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous-information/ability-information/" class="md-nav__link">
+        Ability information
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous-information/auto-attacks/" class="md-nav__link">
+        Auto attacks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous-information/boss-revenue/" class="md-nav__link">
+        Boss revenue
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous-information/eof-specs/" class="md-nav__link">
+        Eof specs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous-information/mechanics/" class="md-nav__link">
+        Mechanics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous-information/pvm-achievement-sheets/" class="md-nav__link">
+        Pvm achievement sheets
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../miscellaneous-information/pvm-spreadsheets/" class="md-nav__link">
+        Pvm spreadsheets
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        Dpm advice
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Dpm advice" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Dpm advice
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dpm-advice/dpm-advice-general/" class="md-nav__link">
+        Dpm advice general
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dpm-advice/dpm-advice-mage/" class="md-nav__link">
+        Dpm advice mage
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dpm-advice/dpm-advice-melee/" class="md-nav__link">
+        Dpm advice melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dpm-advice/dpm-advice-range/" class="md-nav__link">
+        Dpm advice range
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      <label class="md-nav__link" for="__nav_7">
+        Basic guides
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Basic guides" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Basic guides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic-guides/araxxor-basic/" class="md-nav__link">
+        Araxxor basic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic-guides/kerapac-hm-basic/" class="md-nav__link">
+        Kerapac hm basic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic-guides/raksha-basic/" class="md-nav__link">
+        Raksha basic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic-guides/shadow-reef-melee-basic/" class="md-nav__link">
+        Shadow reef melee basic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic-guides/solak-basic/" class="md-nav__link">
+        Solak basic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic-guides/telos-basic/" class="md-nav__link">
+        Telos basic
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      <label class="md-nav__link" for="__nav_8">
+        Low tier pvm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Low tier pvm" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Low tier pvm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../low-tier-pvm/barrows/" class="md-nav__link">
+        Barrows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../low-tier-pvm/chaos-elemental/" class="md-nav__link">
+        Chaos elemental
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../low-tier-pvm/dagannoth-kings/" class="md-nav__link">
+        Dagannoth kings
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../low-tier-pvm/giant-mole/" class="md-nav__link">
+        Giant mole
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../low-tier-pvm/gwd1/" class="md-nav__link">
+        Gwd1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../low-tier-pvm/kalphite-queen/" class="md-nav__link">
+        Kalphite queen
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../low-tier-pvm/king-black-dragon/" class="md-nav__link">
+        King black dragon
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      <label class="md-nav__link" for="__nav_9">
+        Mid tier pvm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Mid tier pvm" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Mid tier pvm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/corporeal-beast/" class="md-nav__link">
+        Corporeal beast
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/fight-kiln/" class="md-nav__link">
+        Fight kiln
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/gregorovic/" class="md-nav__link">
+        Gregorovic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/helwyr/" class="md-nav__link">
+        Helwyr
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/kalphite-king/" class="md-nav__link">
+        Kalphite king
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/legiones/" class="md-nav__link">
+        Legiones
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/queen-black-dragon/" class="md-nav__link">
+        Queen black dragon
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/rex-matriarchs/" class="md-nav__link">
+        Rex matriarchs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/twin-furies/" class="md-nav__link">
+        Twin furies
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mid-tier-pvm/vindicta/" class="md-nav__link">
+        Vindicta
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      <label class="md-nav__link" for="__nav_10">
+        High tier pvm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="High tier pvm" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          High tier pvm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../high-tier-pvm/araxxor-melee/" class="md-nav__link">
+        Araxxor melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../high-tier-pvm/araxxor-range/" class="md-nav__link">
+        Araxxor range
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../high-tier-pvm/beastmaster-durzag/" class="md-nav__link">
+        Beastmaster durzag
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../high-tier-pvm/magister/" class="md-nav__link">
+        Magister
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../high-tier-pvm/raksha/" class="md-nav__link">
+        Raksha
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../high-tier-pvm/rots/" class="md-nav__link">
+        Rots
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../high-tier-pvm/yakamaru/" class="md-nav__link">
+        Yakamaru
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      <label class="md-nav__link" for="__nav_11">
+        Nex aod
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Nex aod" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Nex aod
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/aod-4/" class="md-nav__link">
+        Aod 4
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/aod-intro/" class="md-nav__link">
+        Aod intro
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/aod-magic/" class="md-nav__link">
+        Aod magic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/aod-melee/" class="md-nav__link">
+        Aod melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/aod-ranged/" class="md-nav__link">
+        Aod ranged
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/nex-duo-ranged/" class="md-nav__link">
+        Nex duo ranged
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/nex-solo-melee/" class="md-nav__link">
+        Nex solo melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/nex-solo-ranged-ecb/" class="md-nav__link">
+        Nex solo ranged ecb
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nex-aod/nex-solo-ranged/" class="md-nav__link">
+        Nex solo ranged
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
+      
+      <label class="md-nav__link" for="__nav_12">
+        Elite dungeons
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Elite dungeons" data-md-level="1">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Elite dungeons
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/dragonkin-laboratory-magic/" class="md-nav__link">
+        Dragonkin laboratory magic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/dragonkin-laboratory-melee/" class="md-nav__link">
+        Dragonkin laboratory melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/dragonkin-laboratory-ranged/" class="md-nav__link">
+        Dragonkin laboratory ranged
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/temple-of-aminishi-magic/" class="md-nav__link">
+        Temple of aminishi magic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/temple-of-aminishi-melee/" class="md-nav__link">
+        Temple of aminishi melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/temple-of-aminishi-ranged/" class="md-nav__link">
+        Temple of aminishi ranged
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/the-shadow-reef-magic/" class="md-nav__link">
+        The shadow reef magic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/the-shadow-reef-melee/" class="md-nav__link">
+        The shadow reef melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elite-dungeons/the-shadow-reef-ranged/" class="md-nav__link">
+        The shadow reef ranged
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_13" type="checkbox" id="__nav_13" checked>
+      
+      <label class="md-nav__link" for="__nav_13">
+        Gwd3
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Gwd3" data-md-level="1">
+        <label class="md-nav__title" for="__nav_13">
+          <span class="md-nav__icon md-icon"></span>
+          Gwd3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Arch glacor
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Arch glacor
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drops" class="md-nav__link">
+    Drops
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preset" class="md-nav__link">
+    Preset
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mechanics" class="md-nav__link">
+    Mechanics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strategy" class="md-nav__link">
+    Strategy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-kills" class="md-nav__link">
+    Example kills
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../croesus/" class="md-nav__link">
+        Croesus
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kerapac-solo/" class="md-nav__link">
+        Kerapac solo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kerapac/" class="md-nav__link">
+        Kerapac
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tzKal-zuk/" class="md-nav__link">
+        Tzkal zuk
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tzkal-zuk-hardmode/" class="md-nav__link">
+        Tzkal zuk hardmode
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
+      
+      <label class="md-nav__link" for="__nav_14">
+        Vorago
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Vorago" data-md-level="1">
+        <label class="md-nav__title" for="__nav_14">
+          <span class="md-nav__icon md-icon"></span>
+          Vorago
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vorago/vorago-duo-hm/" class="md-nav__link">
+        Vorago duo hm
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vorago/vorago-hardmode/" class="md-nav__link">
+        Vorago hardmode
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vorago/vorago-rotations/" class="md-nav__link">
+        Vorago rotations
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vorago/vorago-solo/" class="md-nav__link">
+        Vorago solo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vorago/vorago-tips-and-tricks/" class="md-nav__link">
+        Vorago tips and tricks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vorago/vorago-trio-hm/" class="md-nav__link">
+        Vorago trio hm
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vorago/vorago/" class="md-nav__link">
+        Vorago
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" type="checkbox" id="__nav_15" >
+      
+      <label class="md-nav__link" for="__nav_15">
+        Solak
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Solak" data-md-level="1">
+        <label class="md-nav__title" for="__nav_15">
+          <span class="md-nav__icon md-icon"></span>
+          Solak
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../solak/solak-fsoa-mage-melee-hybrid/" class="md-nav__link">
+        Solak fsoa mage melee hybrid
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../solak/solak-magic-brid/" class="md-nav__link">
+        Solak magic brid
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../solak/solak-mechanics/" class="md-nav__link">
+        Solak mechanics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../solak/solak-range-brid/" class="md-nav__link">
+        Solak range brid
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../solak/solak-range/" class="md-nav__link">
+        Solak range
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16" type="checkbox" id="__nav_16" >
+      
+      <label class="md-nav__link" for="__nav_16">
+        Telos
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Telos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_16">
+          <span class="md-nav__icon md-icon"></span>
+          Telos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telos/telos-0-999-magic/" class="md-nav__link">
+        Telos 0 999 magic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telos/telos-1k-plus-magic/" class="md-nav__link">
+        Telos 1k plus magic
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telos/telos-melee/" class="md-nav__link">
+        Telos melee
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telos/telos-ranged/" class="md-nav__link">
+        Telos ranged
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telos/telos-stun-guide/" class="md-nav__link">
+        Telos stun guide
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_17" type="checkbox" id="__nav_17" >
+      
+      <label class="md-nav__link" for="__nav_17">
+        Slayer
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Slayer" data-md-level="1">
+        <label class="md-nav__title" for="__nav_17">
+          <span class="md-nav__icon md-icon"></span>
+          Slayer
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/ed2-hydrix/" class="md-nav__link">
+        Ed2 hydrix
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/glacors/" class="md-nav__link">
+        Glacors
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/misc-slayer-guides/" class="md-nav__link">
+        Misc slayer guides
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/moss-golems/" class="md-nav__link">
+        Moss golems
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/nightmare-creatures/" class="md-nav__link">
+        Nightmare creatures
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/optimal-block-prefer-lists/" class="md-nav__link">
+        Optimal block prefer lists
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/overview-of-slayer/" class="md-nav__link">
+        Overview of slayer
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/raptor-mobs/" class="md-nav__link">
+        Raptor mobs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/ripper-demon/" class="md-nav__link">
+        Ripper demon
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/shattered-worlds-slayer/" class="md-nav__link">
+        Shattered worlds slayer
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/slaying-to-120-for-xp/" class="md-nav__link">
+        Slaying to 120 for xp
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slayer/soul-devourers/" class="md-nav__link">
+        Soul devourers
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drops" class="md-nav__link">
+    Drops
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preset" class="md-nav__link">
+    Preset
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mechanics" class="md-nav__link">
+    Mechanics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strategy" class="md-nav__link">
+    Strategy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-kills" class="md-nav__link">
+    Example kills
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="arch-glacor">Arch glacor</h1>
+<p><strong><ins>Arch-Glacor</ins></strong></p>
+<p>(Courtesy of #Roarroar and #Frog)</p>
+<p><img class="media" src="https://imgur.com/MIWriSs.png"></p>
+<h2 id="introduction">Introduction</h2>
+<p>The Arch-Glacor is a large glacor general fighting under Wen. The Arch-Glacor is massable in Normal Mode, but must be fought solo on Hard Mode, which introduces a enrage mechanic similar to Telos <img title="Telos" class="d-emoji" alt="Telos" src="https://cdn.discordapp.com/emojis/513212949033123840.png?v=1">.</p>
+<p>The Arch-Glacor is only affected by the Glacor slayer task on Normal Mode. The slayer helmet <img title="slayerhelm" class="d-emoji" alt="slayerhelm" src="https://cdn.discordapp.com/emojis/798285340460449792.png?v=1"> bonus and genocidal <img title="genocidal" class="d-emoji" alt="genocidal" src="https://cdn.discordapp.com/emojis/689503091539705870.png?v=1"> bonus will work on The Arch-Glacor; however, Tuska's Wrath <img title="Tuskas" class="d-emoji" alt="Tuskas" src="https://cdn.discordapp.com/emojis/513201065513058306.png?v=1"> will not be boosted.</p>
+<h2 id="drops">Drops</h2>
+<p>⬥ Normal Mode: Scripture of Wen <img title="wengodbook" class="d-emoji" alt="wengodbook" src="https://cdn.discordapp.com/emojis/883134307902816297.png?v=1"> and the Leng Artefact <img title="lengartefact" class="d-emoji" alt="lengartefact" src="https://cdn.discordapp.com/emojis/884739993543782420.png?v=1"> used to upgrade Nightmare Gauntlets <img title="NMG" class="d-emoji" alt="NMG" src="https://cdn.discordapp.com/emojis/513190159441723392.png?v=1">, Gloves of Passage <img title="glovespassage" class="d-emoji" alt="glovespassage" src="https://cdn.discordapp.com/emojis/643166351585706060.png?v=1">, and Kerapac's Wristwraps <img title="kerapacswristwraps" class="d-emoji" alt="kerapacswristwraps" src="https://cdn.discordapp.com/emojis/869286640722513940.png?v=1">. The Arch-Glacor always drops 3 piles of loot in Normal Mode. Each pile contains at most 1 Dark Nilas <img title="darknilas" class="d-emoji" alt="darknilas" src="https://cdn.discordapp.com/emojis/884739993527013426.png?v=1">.</p>
+<p>⬥ Hard Mode: The Frozen Core of Leng <img title="frozencoreofleng" class="d-emoji" alt="frozencoreofleng" src="https://cdn.discordapp.com/emojis/884739993527025704.png?v=1"> used to upgrade the t85 melee weapons to t95 can only be obtained from Hard Mode. In Hard Mode, each kill gives a roll of loot in the Frozen Vault. Players can choose to risk the drops in the Vault for an increased chance of better loot, at the cost of a more difficult fight known as streaking, much like Telos. For each kill that a player continues in the streak, enrage increases between 5-20%. 0 to 42 Dark Nilas <img title="darknilas" class="d-emoji" alt="darknilas" src="https://cdn.discordapp.com/emojis/884739993527013426.png?v=1"> can be obtained in a single roll.</p>
+<p>⬥ <strong>Glacor remnants</strong> <img title="glacorremnants" class="d-emoji" alt="glacorremnants" src="https://cdn.discordapp.com/emojis/884739993527013376.png?v=1"></p>
+<p>⬥ <strong>Dark Nilas</strong> <img title="darknilas" class="d-emoji" alt="darknilas" src="https://cdn.discordapp.com/emojis/884739993527013426.png?v=1"></p>
+<p>⬥ <strong>Leng Artefact</strong> <img title="lengartefact" class="d-emoji" alt="lengartefact" src="https://cdn.discordapp.com/emojis/884739993543782420.png?v=1"></p>
+<p>⬥ <strong>Scripture of Wen</strong> <img title="wengodbook" class="d-emoji" alt="wengodbook" src="https://cdn.discordapp.com/emojis/883134307902816297.png?v=1"></p>
+<p>⬥ <strong>Frozen Core of Leng</strong> <img title="frozencoreofleng" class="d-emoji" alt="frozencoreofleng" src="https://cdn.discordapp.com/emojis/884739993527025704.png?v=1"></p>
+<p>⬥ <strong>Glacor Core</strong> <img title="glacorclaw" class="d-emoji" alt="glacorclaw" src="https://cdn.discordapp.com/emojis/884739993229230092.png?v=1"></p>
+<h2 id="preset">Preset</h2>
+<p>⬥ If using Smoke Cloud <img title="smokecloud" class="d-emoji" alt="smokecloud" src="https://cdn.discordapp.com/emojis/856635090641879050.png?v=1"> via spellbook swap rather than borrowed power, you may substitute food for the extra pouch</p>
+<p>⬥ You can adjust your food and replace blubbers and grests with solids and saradomin brews as you climb enrage, if needed</p>
+<p>⬥ <img title="ancientrepriser" class="d-emoji" alt="ancientrepriser" src="https://cdn.discordapp.com/emojis/643150658891153428.png?v=1"> Planted Feet <img title="pf" class="d-emoji" alt="pf" src="https://cdn.discordapp.com/emojis/689501925770919981.png?v=1"> switch.</p>
+<p>⬥ <img title="barrowsbbcoh" class="d-emoji" alt="barrowsbbcoh" src="https://cdn.discordapp.com/emojis/580176857123651584.png?v=1"> Caroming 4 <img title="caroming4" class="d-emoji" alt="caroming4" src="https://cdn.discordapp.com/emojis/791281588792590336.png?v=1"> switch for <img title="gricocaroming" class="d-emoji" alt="gricocaroming" src="https://cdn.discordapp.com/emojis/867678153966878740.png?v=1">.</p>
+<p>⬥ <img title="eofblue" class="d-emoji" alt="eofblue" src="https://cdn.discordapp.com/emojis/780401412906680330.png?v=1"> <strong>Essence of Finality</strong> with a Seren Godbow <img title="sgb" class="d-emoji" alt="sgb" src="https://cdn.discordapp.com/emojis/626466665848242186.png?v=1"> stored.</p>
+<p>⬥ <img title="eofgreen" class="d-emoji" alt="eofgreen" src="https://cdn.discordapp.com/emojis/780401412727242773.png?v=1"> <strong>Essence of Finality</strong> with a Dark Bow <img title="dbow" class="d-emoji" alt="dbow" src="https://cdn.discordapp.com/emojis/643848618553507843.png?v=1"> stored.</p>
+<p>⬥ <img title="eofpink" class="d-emoji" alt="eofpink" src="https://cdn.discordapp.com/emojis/780401412865523722.png?v=1"> <strong>Essence of Finality</strong> with Eldritch Crossbow <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> stored.</p>
+<p>⬥ <img title="bluepouch" class="d-emoji" alt="bluepouch" src="https://cdn.discordapp.com/emojis/656786565527502858.png?v=1"> <strong>Rune Pouch</strong> <img title="Bloodrune" class="d-emoji" alt="Bloodrune" src="https://cdn.discordapp.com/emojis/536252658970001409.png?v=1"> <img title="Astralrune" class="d-emoji" alt="Astralrune" src="https://cdn.discordapp.com/emojis/536252658961481769.png?v=1"> <img title="Bodyrune" class="d-emoji" alt="Bodyrune" src="https://cdn.discordapp.com/emojis/536252659301089280.png?v=1"></p>
+<p>⬥ <img title="blackpouch" class="d-emoji" alt="blackpouch" src="https://cdn.discordapp.com/emojis/656786565359599626.png?v=1"> <strong>Rune Pouch</strong> <img title="Airrune" class="d-emoji" alt="Airrune" src="https://cdn.discordapp.com/emojis/536252658986647589.png?v=1"> <img title="Deathrune" class="d-emoji" alt="Deathrune" src="https://cdn.discordapp.com/emojis/536252659586433024.png?v=1"> <img title="Earthrune" class="d-emoji" alt="Earthrune" src="https://cdn.discordapp.com/emojis/536252659808731137.png?v=1"></p>
+<p>(Runes for <img title="disrupt" class="d-emoji" alt="disrupt" src="https://cdn.discordapp.com/emojis/535614336207552523.png?v=1"> <img title="Veng" class="d-emoji" alt="Veng" src="https://cdn.discordapp.com/emojis/543478434953822208.png?v=1">)</p>
+<p><img class="media" src="https://imgur.com/PumVEi2.png"></p>
+<p>⬥ <strong>Relics</strong></p>
+<p>‎ ‎ ‎ ‎• <img title="deathward" class="d-emoji" alt="deathward" src="https://cdn.discordapp.com/emojis/697808774068699286.png?v=1"> <strong>Death Ward</strong></p>
+<p>‎ ‎ ‎ ‎• <img title="furyofthesmall" class="d-emoji" alt="furyofthesmall" src="https://cdn.discordapp.com/emojis/697808773917573233.png?v=1"> <strong>Fury of the Small</strong></p>
+<p>‎ ‎ ‎ ‎• <img title="heightenedsenses" class="d-emoji" alt="heightenedsenses" src="https://cdn.discordapp.com/emojis/697808773573771344.png?v=1"> <strong>Heightened Senses</strong></p>
+<h2 id="mechanics">Mechanics</h2>
+<p>From the start of the fight, the Arch-Glacor will cycle through sets of 5 different mechanics (Glacyte Minions, Flurry, Pillars of Ice, Frost Cannon and Exposed Core) in random order. Once a set of 5 mechanics is completed, the next set will begin. This repeats until the fight ends.</p>
+<p>⬥ Normal mode: All mechanics except for Creeping Ice can be toggled off, which decreases the Arch-Glacor's HP but lowers the quality of drops.</p>
+<p><ins><strong>Creeping Ice</strong></ins></p>
+<p>⬥ Normal mode and Hard mode: Ice Shards approach slowly from either side and force the player into a specific area of the arena. These areas are different for each mechanic:</p>
+<p>‎ ‎ ‎ ‎• Flurry: Middle</p>
+<p>‎ ‎ ‎ ‎• Pillars of Ice: West</p>
+<p>‎ ‎ ‎ ‎• Frost Cannon: West, Middle, or East</p>
+<p>‎ ‎ ‎ ‎• Exposed Core: Middle</p>
+<p>⬥ If players are pushed by the Creeping Ice, they will be struck with a small amount of melee damage and pushed in the direction the ice is approaching, interrupting any channels. If a player attempts to Surge <img title="surge" class="d-emoji" alt="surge" src="https://cdn.discordapp.com/emojis/535533810004262912.png?v=1">, Bladed Dive <img title="bd" class="d-emoji" alt="bd" src="https://cdn.discordapp.com/emojis/535532854281764884.png?v=1">, Barge <img title="gbarge" class="d-emoji" alt="gbarge" src="https://cdn.discordapp.com/emojis/535532879250456578.png?v=1"> or Escape <img title="escape" class="d-emoji" alt="escape" src="https://cdn.discordapp.com/emojis/535541258832052231.png?v=1"> on the tick they are pushed, they will be pulled back to the spot where they were standing and then pushed.</p>
+<video class="media" controls><source src="https://imgur.com/gurj6VM.mp4" type="video/mp4"></video>
+
+<p><ins><strong>Glacyte Minions</strong></ins></p>
+<p>⬥ Normal Mode: The Arch-Glacor spawns 4 glacyte minions. As well as attacking the player, the Arch-Glacor will be immune to damage until all its minions are killed. Minions have 2500 HP. The light blue ones attack with mage while the dark blue ones attack with melee.</p>
+<p>⬥ Hard Mode: Minions have 13500 HP until 2500% enrage. Starting from 250% enrage, a Bolstered Glacyte minion will additionally spawn, which has 27000 health and attacks with melee. After 2500% enrage, all minions' health start to scale.</p>
+<p>⬥ The spawning animation will interrupt the attack animation of the previous auto attack, but the auto attack will still go through. This is especially important to know if the previous mechanic is Flurry.</p>
+<p><ins><strong>Flurry</strong></ins></p>
+<p>⬥ Normal Mode: The Arch-Glacor's auto attacks will switch between Mage and Ranged with high damage in their respective style. The player has increased damage reduction when praying against the correct combat style.</p>
+<p>⬥ Hard Mode: The Arch-Glacor gains a melee attack where it swipes one of its arms across the arena. The damage from auto attacks scales with enrage.</p>
+<p>⬥ The last 2 auto-attacks from this mechanic can carry over into Glacyte Minions.</p>
+<p>⬥ It is recommended to fight the boss with game sounds as each type of auto has a different audio cue.</p>
+<p>⬥ In the sped-up example below, the Arch-Glacor performs Melee → Melee → Ranged auto-attacks. The animation for the 2nd melee auto-attack is cut short by Glacyte Minions but still goes through (first hit blocked by Devotion <img title="devo" class="d-emoji" alt="devo" src="https://cdn.discordapp.com/emojis/513190158728953857.png?v=1">), and the glacor performs 1 more ranged auto-attack under Flurry after minions have spawned.</p>
+<video class="media" controls><source src="https://imgur.com/bpa24Bj.mp4" type="video/mp4"></video>
+
+<p><ins><strong>Pillars of Ice</strong></ins></p>
+<p>⬥ Normal mode: The Arch-Glacor forces the player to the west side and calls down elemental beams from the sky. The first beam appears shortly after the Arch-Glacor raises its arms, with the second beam appearing just before the Creeping Ice disappears. Being hit by the beam deals a random amount of hard typeless damage and saps 8% of max Prayer points.</p>
+<p>⬥ Hard mode: A third beam will appear shortly after second around the middle of the arena. Beams will additionally drain 1% adrenaline for every hit on the player. The damage from beams scale with enrage.</p>
+<p>⬥ All beams despawn around 20 seconds after the first beam spawns.</p>
+<p>⬥ Generally, this mechanic can be handled by simply moving as such:</p>
+<p>‎ ‎ ‎ ‎• Walking to the most Southwest tile.</p>
+<p>‎ ‎ ‎ ‎• Bladed Dive <img title="bd" class="d-emoji" alt="bd" src="https://cdn.discordapp.com/emojis/535532854281764884.png?v=1"> or Walking North and then East to the most Northeast tile that isn't blocked by Creeping Ice as the first beam is about to approach you.</p>
+<p>‎ ‎ ‎ ‎• After Creeping Ice despawns, walk East until you're about to be hit by the second beam and then Surge <img title="surge" class="d-emoji" alt="surge" src="https://cdn.discordapp.com/emojis/535533810004262912.png?v=1">.</p>
+<p>‎ ‎ ‎ ‎• Attack the Glacor, causing you to face it and then Surge <img title="surge" class="d-emoji" alt="surge" src="https://cdn.discordapp.com/emojis/535533810004262912.png?v=1"> towards it as the Creeping Ice or the second beam is about to hit you.</p>
+<video class="media" controls><source src="https://imgur.com/5MmY4Mq.mp4" type="video/mp4"></video>
+
+<p>⬥ The arm raise animation at the start of the mechanic will interrupt the attack animation of the previous auto attack, but the auto attack will still go through, demonstrated in the example below.</p>
+<video class="media" controls><source src="https://imgur.com/dz0maJW.mp4" type="video/mp4"></video>
+
+<p><ins><strong>Frost Cannon</strong></ins></p>
+<p>⬥ Normal Mode: The Arch-Glacor traps the player in a small area and launches a huge surge of energy at them. The beam deals a high hit of magic, with damage scaling according to the number of mechanics enabled.</p>
+<p>⬥ Hard Mode: The beam now deals 3 hits, and the first hit applies a 6 second stun <img title="stunicon" class="d-emoji" alt="stunicon" src="https://cdn.discordapp.com/emojis/841419289428492369.png?v=1"> and bind. The damage does not scale with enrage.</p>
+<p>⬥ The recommended to deal with this mechanic is casting Reflect <img title="reflect" class="d-emoji" alt="reflect" src="https://cdn.discordapp.com/emojis/535541258786177064.png?v=1"> with Deflect Magic <img title="DeflectMage" class="d-emoji" alt="DeflectMage" src="https://cdn.discordapp.com/emojis/544195487926845462.png?v=1"> active for the first 2 hits and casting Resonance <img title="res" class="d-emoji" alt="res" src="https://cdn.discordapp.com/emojis/535541258844635148.png?v=1"> for the 3rd hit while flicking to Soul Split <img title="soulsplit" class="d-emoji" alt="soulsplit" src="https://cdn.discordapp.com/emojis/615613924506599497.png?v=1"> to heal back to full.</p>
+<video class="media" controls><source src="https://imgur.com/9PyGvb4.mp4" type="video/mp4"></video>
+
+<p><ins><strong>Exposed Core</strong></ins></p>
+<p>⬥ Normal Mode: The Arch-Glacor releases its frozen core into the centre of the arena, trapping players with its arms, each having 17500 HP. The frozen core damages and applies a stacking debuff on the player, each stack increasing the damage dealt. The player must kill either of the arms and get out of its proximity in order to stop the damage.</p>
+<p>⬥ Hard Mode: Arms now have 32500 HP, which start to scale with enrage after 2500%.</p>
+<p><ins><strong>Enrage</strong></ins></p>
+<p>On Hard Mode, the Arch-Glacor's HP and auto attack damage increases with enrage.</p>
+<h2 id="strategy">Strategy</h2>
+<p>Generally, streaking low enrage up to 500% is considered the best method to farm the boss. Ranged is considered the best style as the long time between auto-attacks (7 ticks) gives you plenty of time to Soul Split <img title="soulsplit" class="d-emoji" alt="soulsplit" src="https://cdn.discordapp.com/emojis/615613924506599497.png?v=1"> flick while under the Eldritch Crossbow Special Attack <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> <img title="spec" class="d-emoji" alt="spec" src="https://cdn.discordapp.com/emojis/537340400273195028.png?v=1"> for fast kills, and the Seren Godbow Special Attack <img title="sgb" class="d-emoji" alt="sgb" src="https://cdn.discordapp.com/emojis/626466665848242186.png?v=1"> <img title="spec" class="d-emoji" alt="spec" src="https://cdn.discordapp.com/emojis/537340400273195028.png?v=1"> hits hard on this boss due to its large size. Since the order of mechanics are mostly random, you will need to vary your rotations depending on which mechanic you get first.</p>
+<p><ins><strong>Starting rotation/Death Swiftness rotations</strong></ins></p>
+<p>⬥ These rotations apply at the start of the fight and generally every time you use Death Swiftness <img title="deathsswiftpf" class="d-emoji" alt="deathsswiftpf" src="https://cdn.discordapp.com/emojis/867678153949708309.png?v=1"> afterwards.</p>
+<p>⬥ Upon entry into instance, walk to the center of the arena, 1 tile to the west of the 4th pillar from the east.</p>
+<p><img class="media" src="https://imgur.com/shUSgin.png"></p>
+<p>⬥ 3 seconds post entry, use <img title="deathsswiftpf" class="d-emoji" alt="deathsswiftpf" src="https://cdn.discordapp.com/emojis/867678153949708309.png?v=1"> + <img title="adrenrenewal" class="d-emoji" alt="adrenrenewal" src="https://cdn.discordapp.com/emojis/736298121704767538.png?v=1"> → <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> + Vuln <img title="vulnbomb" class="d-emoji" alt="vulnbomb" src="https://cdn.discordapp.com/emojis/655341074235129858.png?v=1"> → TC + <img title="ingen" class="d-emoji" alt="ingen" src="https://cdn.discordapp.com/emojis/641339234111848463.png?v=1"> + <img title="smokecloud" class="d-emoji" alt="smokecloud" src="https://cdn.discordapp.com/emojis/856635090641879050.png?v=1"> + <img title="gricocaroming" class="d-emoji" alt="gricocaroming" src="https://cdn.discordapp.com/emojis/867678153966878740.png?v=1">.</p>
+<p>⬥ If Creeping Ice approaches, SGB spec <img title="sgb" class="d-emoji" alt="sgb" src="https://cdn.discordapp.com/emojis/626466665848242186.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> instantly. If not, Needle Strike <img title="needle" class="d-emoji" alt="needle" src="https://cdn.discordapp.com/emojis/535541259108876293.png?v=1"> to prevent nulling on Glacyte Minions.</p>
+<p>‎ ‎ ‎ ‎• Afterwards, use <img title="snap" class="d-emoji" alt="snap" src="https://cdn.discordapp.com/emojis/535534127131394088.png?v=1"> → <img title="rapid" class="d-emoji" alt="rapid" src="https://cdn.discordapp.com/emojis/535541270521708566.png?v=1">/<img title="corruptshot" class="d-emoji" alt="corruptshot" src="https://cdn.discordapp.com/emojis/535541306294796299.png?v=1"> before <img title="rapid" class="d-emoji" alt="rapid" src="https://cdn.discordapp.com/emojis/535541270521708566.png?v=1"> if your next mechanic is not Glacyte Minions or Exposed Core.</p>
+<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎- If Flurry is your first mechanic, follow with <img title="gricocaroming" class="d-emoji" alt="gricocaroming" src="https://cdn.discordapp.com/emojis/867678153966878740.png?v=1"> → <img title="needle" class="d-emoji" alt="needle" src="https://cdn.discordapp.com/emojis/535541259108876293.png?v=1"> → equip <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> + <img title="shadowtend" class="d-emoji" alt="shadowtend" src="https://cdn.discordapp.com/emojis/642713547142332416.png?v=1"> → (Dual wield) <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> → Improvise. Try to get a second SGB spec <img title="sgb" class="d-emoji" alt="sgb" src="https://cdn.discordapp.com/emojis/626466665848242186.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> in your DS <img title="ds" class="d-emoji" alt="ds" src="https://cdn.discordapp.com/emojis/535541258924326912.png?v=1"> if Exposed Core is not your next mechanic.</p>
+<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎- If Frost Cannon is your first mechanic, use <img title="anti" class="d-emoji" alt="anti" src="https://cdn.discordapp.com/emojis/535541306475151390.png?v=1"> → <img title="devo" class="d-emoji" alt="devo" src="https://cdn.discordapp.com/emojis/513190158728953857.png?v=1">.</p>
+<p>‎ ‎ ‎ ‎• If Pillars of Ice is your first mechanic, follow the movements in the video below to stay in your DS <img title="ds" class="d-emoji" alt="ds" src="https://cdn.discordapp.com/emojis/535541258924326912.png?v=1"> as much as possible. Use Greater Ricochet <img title="gricocaroming" class="d-emoji" alt="gricocaroming" src="https://cdn.discordapp.com/emojis/867678153966878740.png?v=1"> before the Creeping Ice forces you out of DS <img title="ds" class="d-emoji" alt="ds" src="https://cdn.discordapp.com/emojis/535541258924326912.png?v=1">. Try to get a second SGB spec <img title="sgb" class="d-emoji" alt="sgb" src="https://cdn.discordapp.com/emojis/626466665848242186.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> in your DS <img title="ds" class="d-emoji" alt="ds" src="https://cdn.discordapp.com/emojis/535541258924326912.png?v=1">.</p>
+<video class="media" controls><source src="https://imgur.com/ApF2zCa.mp4" type="video/mp4"></video>
+
+<p>‎‎ ‎ ‎ ‎• If Glacyte Minions is your first mechanic, use Mechanical Chinchompas <img title="mechchin" class="d-emoji" alt="mechchin" src="https://cdn.discordapp.com/emojis/641669268722810881.png?v=1"> to clear minions using <img title="corruptshot" class="d-emoji" alt="corruptshot" src="https://cdn.discordapp.com/emojis/535541306294796299.png?v=1"> → <img title="snap" class="d-emoji" alt="snap" src="https://cdn.discordapp.com/emojis/535534127131394088.png?v=1">/<img title="dbow" class="d-emoji" alt="dbow" src="https://cdn.discordapp.com/emojis/643848618553507843.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> depending on adrenaline → Improvise.</p>
+<p>‎ ‎ ‎ ‎• If Exposed Core is your first mechanic, <img title="snap" class="d-emoji" alt="snap" src="https://cdn.discordapp.com/emojis/535534127131394088.png?v=1"> → Any ability → TC onto arms + <img title="gricocaroming" class="d-emoji" alt="gricocaroming" src="https://cdn.discordapp.com/emojis/867678153966878740.png?v=1"> → <img title="rapid" class="d-emoji" alt="rapid" src="https://cdn.discordapp.com/emojis/535541270521708566.png?v=1">.</p>
+<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎- If you have 100% or more adrenaline, you can Incendiary Shot <img title="incend" class="d-emoji" alt="incend" src="https://cdn.discordapp.com/emojis/535541258429661215.png?v=1"> before using ECB <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> since you have 2-3 GCDs before the boss becomes targetable.</p>
+<p><ins><strong>General rotation advice</strong></ins></p>
+<p>⬥ If you get arms, and it's not in your first DS <img title="ds" class="d-emoji" alt="ds" src="https://cdn.discordapp.com/emojis/535541258924326912.png?v=1">, equip Ruby Bakriminel bolts <img title="RubyBakri" class="d-emoji" alt="RubyBakri" src="https://cdn.discordapp.com/emojis/565726489413287956.png?v=1"> and kill arms with: equip <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> + auto → (Dual wield) <img title="gricocaroming" class="d-emoji" alt="gricocaroming" src="https://cdn.discordapp.com/emojis/867678153966878740.png?v=1"> → equip <img title="ecb" class="d-emoji" alt="ecb" src="https://cdn.discordapp.com/emojis/615618531937222657.png?v=1"> <img title="shadowtend" class="d-emoji" alt="shadowtend" src="https://cdn.discordapp.com/emojis/642713547142332416.png?v=1"> (Switch after Ruby <img title="RubyBakri" class="d-emoji" alt="RubyBakri" src="https://cdn.discordapp.com/emojis/565726489413287956.png?v=1"> proc) → Improvise with basics. This rotation can be really fast for arms.</p>
+<p>⬥ It is practical to use Natural Instinct <img title="nat" class="d-emoji" alt="nat" src="https://cdn.discordapp.com/emojis/535541258131865633.png?v=1"> after clearing arms and building to 100% for your next Death Swiftness <img title="deathsswiftpf" class="d-emoji" alt="deathsswiftpf" src="https://cdn.discordapp.com/emojis/867678153949708309.png?v=1">.</p>
+<p>‎ ‎ ‎ ‎• If Relentless <img title="relentless5" class="d-emoji" alt="relentless5" src="https://cdn.discordapp.com/emojis/712244800920748092.png?v=1"> procs, just use Incendiary Shot <img title="incend" class="d-emoji" alt="incend" src="https://cdn.discordapp.com/emojis/535541258429661215.png?v=1"> after using Natty <img title="nat" class="d-emoji" alt="nat" src="https://cdn.discordapp.com/emojis/535541258131865633.png?v=1"> so that you can cycle more Dark Bow Special attacks <img title="dbow" class="d-emoji" alt="dbow" src="https://cdn.discordapp.com/emojis/643848618553507843.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1"> in the DS <img title="ds" class="d-emoji" alt="ds" src="https://cdn.discordapp.com/emojis/535541258924326912.png?v=1"> after.</p>
+<p>⬥ Stick to Hydrix Bakriminel bolts <img title="HydrixBakri" class="d-emoji" alt="HydrixBakri" src="https://cdn.discordapp.com/emojis/550834403136503822.png?v=1"> when the boss has less than 100k HP.</p>
+<p>⬥ If you're around 80% adrenaline in DS <img title="ds" class="d-emoji" alt="ds" src="https://cdn.discordapp.com/emojis/535541258924326912.png?v=1">, just use Dbow specs<img title="dbow" class="d-emoji" alt="dbow" src="https://cdn.discordapp.com/emojis/643848618553507843.png?v=1"> <img title="eofspec" class="d-emoji" alt="eofspec" src="https://cdn.discordapp.com/emojis/746403211908481184.png?v=1">.</p>
+<h2 id="example-kills">Example kills</h2>
+<p>https://youtu.be/LLfh-xehpRM</p>
+<div class="flex-vertical whitney theme-dark">
+<div class="chat flex-vertical flex-spacer">
+<div class="content flex-spacer flex-horizontal">
+<div class="flex-spacer flex-vertical messages-wrapper">
+<div class="scroller-wrap">
+<div class="scroller messages">
+<div class="message-group hide-overflow">
+<div class="comment">
+<div class="message first">
+<div class="accessory">
+
+<div class="embed-wrapper">
+<div class="embed-color-pill" style="background-color: rgb(0, 153, 255);"></div>
+<div class="embed embed-rich">
+<div class="embed-content">
+<div class="embed-content-inner">
+
+<div class="embed-title" >Table of Contents
+</div>
+
+<div class="embed-fields"><div class="embed-field embed-field-inline" ><div class="embed-field-name" ><u>Introduction</u>
+</div><div class="embed-field-value markup" >[Link]($linkmsg
+</div></div><div class="embed-field embed-field-inline" ><div class="embed-field-name" ><u>Drops</u>
+</div><div class="embed-field-value markup" >[Link]($linkmsg
+</div></div><div class="embed-field embed-field-inline" ><div class="embed-field-name" ><u>Presets</u>
+</div><div class="embed-field-value markup" >[Link]($linkmsg
+</div></div><div class="embed-field embed-field-inline" ><div class="embed-field-name" ><u>Mechanics</u>
+</div><div class="embed-field-value markup" >[Link]($linkmsg
+</div></div><div class="embed-field embed-field-inline" ><div class="embed-field-name" ><u>Strategy</u>
+</div><div class="embed-field-value markup" >[Link]($linkmsg
+</div></div><div class="embed-field embed-field-inline" ><div class="embed-field-name" ><u>Example Kills</u>
+</div><div class="embed-field-value markup" >[Link]($linkmsg
+</div></div></div>
+</div>
+
+</div>
+
+
+</div></div></div></div></div></div></div></div></div></div></div></div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "search.suggest", "search.highlight", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.2b46852b.min.js"></script>
+      
+        <script src="../../../javascripts/discordInvite.js"></script>
+      
+    
+  </body>
+</html>
